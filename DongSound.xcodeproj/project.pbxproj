@@ -11,7 +11,45 @@
 		4888B3582C4158590008D131 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888B3572C4158590008D131 /* ContentView.swift */; };
 		4888B35A2C41585B0008D131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4888B3592C41585B0008D131 /* Assets.xcassets */; };
 		4888B35D2C41585B0008D131 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4888B35C2C41585B0008D131 /* Preview Assets.xcassets */; };
+		4888B36A2C41588E0008D131 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4888B3692C41588E0008D131 /* WidgetKit.framework */; };
+		4888B36C2C41588E0008D131 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4888B36B2C41588E0008D131 /* SwiftUI.framework */; };
+		4888B36F2C41588E0008D131 /* DongSoundWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888B36E2C41588E0008D131 /* DongSoundWidgetLiveActivity.swift */; };
+		4888B3712C41588E0008D131 /* DongSoundWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888B3702C41588E0008D131 /* DongSoundWidgetBundle.swift */; };
+		4888B3732C41588E0008D131 /* DongSoundWidgetControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888B3722C41588E0008D131 /* DongSoundWidgetControl.swift */; };
+		4888B3752C41588E0008D131 /* DongSoundWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888B3742C41588E0008D131 /* DongSoundWidget.swift */; };
+		4888B3772C4158900008D131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4888B3762C4158900008D131 /* Assets.xcassets */; };
+		4888B37B2C4158900008D131 /* DongSoundWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4888B3672C41588E0008D131 /* DongSoundWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4888B3812C4159EA0008D131 /* SharedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888B3802C4159EA0008D131 /* SharedManager.swift */; };
+		4888B3822C4159EA0008D131 /* SharedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888B3802C4159EA0008D131 /* SharedManager.swift */; };
+		4888B3852C415E2E0008D131 /* Hopscotch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4888B3842C415E2E0008D131 /* Hopscotch.mp3 */; };
+		4888B3862C415E2E0008D131 /* Hopscotch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4888B3842C415E2E0008D131 /* Hopscotch.mp3 */; };
+		4888B3882C415E4D0008D131 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888B3872C415E4D0008D131 /* MusicPlayer.swift */; };
+		4888B3892C415E4D0008D131 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4888B3872C415E4D0008D131 /* MusicPlayer.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4888B3792C4158900008D131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4888B34A2C4158590008D131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4888B3662C41588E0008D131;
+			remoteInfo = DongSoundWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4888B37F2C4158900008D131 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4888B37B2C4158900008D131 /* DongSoundWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4888B3522C4158590008D131 /* DongSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DongSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +57,18 @@
 		4888B3572C4158590008D131 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4888B3592C41585B0008D131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4888B35C2C41585B0008D131 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4888B3672C41588E0008D131 /* DongSoundWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DongSoundWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4888B3692C41588E0008D131 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4888B36B2C41588E0008D131 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4888B36E2C41588E0008D131 /* DongSoundWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongSoundWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		4888B3702C41588E0008D131 /* DongSoundWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongSoundWidgetBundle.swift; sourceTree = "<group>"; };
+		4888B3722C41588E0008D131 /* DongSoundWidgetControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongSoundWidgetControl.swift; sourceTree = "<group>"; };
+		4888B3742C41588E0008D131 /* DongSoundWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongSoundWidget.swift; sourceTree = "<group>"; };
+		4888B3762C4158900008D131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4888B3782C4158900008D131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4888B3802C4159EA0008D131 /* SharedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedManager.swift; sourceTree = "<group>"; };
+		4888B3842C415E2E0008D131 /* Hopscotch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hopscotch.mp3; sourceTree = "<group>"; };
+		4888B3872C415E4D0008D131 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +79,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4888B3642C41588E0008D131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4888B36C2C41588E0008D131 /* SwiftUI.framework in Frameworks */,
+				4888B36A2C41588E0008D131 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				4888B3542C4158590008D131 /* DongSound */,
+				4888B36D2C41588E0008D131 /* DongSoundWidget */,
+				4888B3682C41588E0008D131 /* Frameworks */,
 				4888B3532C4158590008D131 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				4888B3522C4158590008D131 /* DongSound.app */,
+				4888B3672C41588E0008D131 /* DongSoundWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +117,9 @@
 				4888B3572C4158590008D131 /* ContentView.swift */,
 				4888B3592C41585B0008D131 /* Assets.xcassets */,
 				4888B35B2C41585B0008D131 /* Preview Content */,
+				4888B3802C4159EA0008D131 /* SharedManager.swift */,
+				4888B3842C415E2E0008D131 /* Hopscotch.mp3 */,
+				4888B3872C415E4D0008D131 /* MusicPlayer.swift */,
 			);
 			path = DongSound;
 			sourceTree = "<group>";
@@ -67,6 +132,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		4888B3682C41588E0008D131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4888B3692C41588E0008D131 /* WidgetKit.framework */,
+				4888B36B2C41588E0008D131 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4888B36D2C41588E0008D131 /* DongSoundWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4888B36E2C41588E0008D131 /* DongSoundWidgetLiveActivity.swift */,
+				4888B3702C41588E0008D131 /* DongSoundWidgetBundle.swift */,
+				4888B3722C41588E0008D131 /* DongSoundWidgetControl.swift */,
+				4888B3742C41588E0008D131 /* DongSoundWidget.swift */,
+				4888B3762C4158900008D131 /* Assets.xcassets */,
+				4888B3782C4158900008D131 /* Info.plist */,
+			);
+			path = DongSoundWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +164,34 @@
 				4888B34E2C4158590008D131 /* Sources */,
 				4888B34F2C4158590008D131 /* Frameworks */,
 				4888B3502C4158590008D131 /* Resources */,
+				4888B37F2C4158900008D131 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4888B37A2C4158900008D131 /* PBXTargetDependency */,
 			);
 			name = DongSound;
 			productName = DongSound;
 			productReference = 4888B3522C4158590008D131 /* DongSound.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4888B3662C41588E0008D131 /* DongSoundWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4888B37C2C4158900008D131 /* Build configuration list for PBXNativeTarget "DongSoundWidgetExtension" */;
+			buildPhases = (
+				4888B3632C41588E0008D131 /* Sources */,
+				4888B3642C41588E0008D131 /* Frameworks */,
+				4888B3652C41588E0008D131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DongSoundWidgetExtension;
+			productName = DongSoundWidgetExtension;
+			productReference = 4888B3672C41588E0008D131 /* DongSoundWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +204,9 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					4888B3512C4158590008D131 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					4888B3662C41588E0008D131 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -116,6 +225,7 @@
 			projectRoot = "";
 			targets = (
 				4888B3512C4158590008D131 /* DongSound */,
+				4888B3662C41588E0008D131 /* DongSoundWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +237,16 @@
 			files = (
 				4888B35D2C41585B0008D131 /* Preview Assets.xcassets in Resources */,
 				4888B35A2C41585B0008D131 /* Assets.xcassets in Resources */,
+				4888B3862C415E2E0008D131 /* Hopscotch.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4888B3652C41588E0008D131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4888B3852C415E2E0008D131 /* Hopscotch.mp3 in Resources */,
+				4888B3772C4158900008D131 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +257,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4888B3812C4159EA0008D131 /* SharedManager.swift in Sources */,
 				4888B3582C4158590008D131 /* ContentView.swift in Sources */,
+				4888B3882C415E4D0008D131 /* MusicPlayer.swift in Sources */,
 				4888B3562C4158590008D131 /* DongSoundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4888B3632C41588E0008D131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4888B3732C41588E0008D131 /* DongSoundWidgetControl.swift in Sources */,
+				4888B3822C4159EA0008D131 /* SharedManager.swift in Sources */,
+				4888B3892C415E4D0008D131 /* MusicPlayer.swift in Sources */,
+				4888B3752C41588E0008D131 /* DongSoundWidget.swift in Sources */,
+				4888B36F2C41588E0008D131 /* DongSoundWidgetLiveActivity.swift in Sources */,
+				4888B3712C41588E0008D131 /* DongSoundWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4888B37A2C4158900008D131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4888B3662C41588E0008D131 /* DongSoundWidgetExtension */;
+			targetProxy = 4888B3792C4158900008D131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4888B35E2C41585B0008D131 /* Debug */ = {
@@ -322,6 +465,60 @@
 			};
 			name = Release;
 		};
+		4888B37D2C4158900008D131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4Z8YS9YYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DongSoundWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DongSoundWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ray.DongSound.DongSoundWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4888B37E2C4158900008D131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4Z8YS9YYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DongSoundWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DongSoundWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ray.DongSound.DongSoundWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +536,15 @@
 			buildConfigurations = (
 				4888B3612C41585B0008D131 /* Debug */,
 				4888B3622C41585B0008D131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4888B37C2C4158900008D131 /* Build configuration list for PBXNativeTarget "DongSoundWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4888B37D2C4158900008D131 /* Debug */,
+				4888B37E2C4158900008D131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

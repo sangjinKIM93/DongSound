@@ -14,6 +14,13 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            
+            Button {
+                MusicPlayer.shared.playSound()
+            } label: {
+                Text("음악 재생")
+            }
+
         }
         .padding()
     }
